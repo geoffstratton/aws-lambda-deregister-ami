@@ -13,7 +13,7 @@ Prerequisites
    + ec2:DescribeImages
    + ec2:DeregisterImage
    + ec2:DescribeRegions
-* If using CloudWatch, your Lambda function also needs the usual CloudWatch Logs role.
+* Use the usual CloudWatch Logs role for logging.
 * A cron job in CloudWatch to invoke the Lambda function at the desired times.
 
 ### Sample Lambda log output
