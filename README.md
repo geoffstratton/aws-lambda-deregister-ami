@@ -16,11 +16,11 @@ Prerequisites
 * If using CloudWatch, your Lambda function also needs the usual CloudWatch Logs role.
 * A cron job in CloudWatch to invoke the Lambda function at the desired times.
 
-### Lambda log output
+### Sample Lambda log output
 ```
-ImageId: ami-04f04cc972108be39, CreationDate: 2019-11-06T21:54:28.000Z (0 days old)
+ImageId: ami-04f04cc972108be39, CreationDate: 2019-11-06T21:54:28.000Z (5 days old)
 Deleting ImageId: ami-04f04cc972108be39
-ImageId: ami-08f2abbe45cdc6369, CreationDate: 2019-11-06T21:54:40.000Z (0 days old)
+ImageId: ami-08f2abbe45cdc6369, CreationDate: 2019-11-06T21:54:40.000Z (6 days old)
 Deleting ImageId: ami-08f2abbe45cdc6369	
 ```
 
