@@ -35,3 +35,7 @@ python3
 >>> ec2 = boto3.client('ec2')
 >>> response = ec2.run_instances(ImageId='ami-00dc79254d0461090',InstanceType='t2.micro',KeyName='MY KEY',MinCount=1,MaxCount=1)
 ```
+
+License
+---------------
+GNU General Public License v3.0
